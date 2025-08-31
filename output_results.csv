@@ -1,0 +1,6 @@
+url,result,expected
+https://google.com,✅ Looks safe,safe
+http://secure-bank-login.com,"⚠️ Suspicious: Uses HTTP (not secure), Contains 'login', Contains 'bank'",phish
+http://198.51.100.23/login,"⚠️ Suspicious: Uses HTTP (not secure), IP address instead of domain, Contains 'login'",phish
+http://update-your-password-now.net,"⚠️ Suspicious: Uses HTTP (not secure), Contains 'update', Contains 'password'",phish
+https://university.edu/results,✅ Looks safe,safe

@@ -1,0 +1,6 @@
+url,label
+https://google.com,safe
+http://secure-bank-login.com,phish
+http://198.51.100.23/login,phish
+http://update-your-password-now.net,phish
+https://university.edu/results,safe
